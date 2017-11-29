@@ -1,0 +1,16 @@
+body{
+    padding: 0;
+    margin:0;
+}
+#day{
+    background-image: url(../img/sunny-day.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+
+}
+.hour{
+    margin-left: 70%;
+    margin-top: 60%;
+    width: 60%;
+}

@@ -1,0 +1,22 @@
+@media (min-width: 535px) and (max-width: 824px) {
+    [class*="col-"]{
+        width: 100%;
+    }
+    #day{
+        background-image: url(../img/dawn.png);
+    }
+    .hour{
+        content: url(../img/kitten-large.png);
+    }
+}
+@media all and (max-width: 534px){
+    [class*="col-"]{
+        width: 100%;
+    }
+    #day{
+        background-image: url(../img/night.jpg);
+    }
+    .hour{
+    	content: url(../img/kitten-small.png);
+    }
+}
